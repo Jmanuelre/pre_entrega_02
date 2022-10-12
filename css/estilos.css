@@ -1,0 +1,68 @@
+*{ margin: 0; padding: 0;   }
+html{font-family: 'Alkalami', serif; font-size: 62.5%;}
+.img_logo_nav{ margin-right: 40px; margin-left: 20px; height: 130px; width: 130px;}
+.div_header_text{font-size: 20px; text-align: center; color: #2c2d3379; background-color: rgb(243 209 199);
+    background-position: center center;}
+#main_inicio{background-image: url(../img/imagen_index_main/WhatsApp\ Image\ 2022-10-09\ at\ 8.18.39\ PM.jpeg)
+    ;background-repeat: no-repeat;background-position-x: center; background-size: contain;
+    height: 500px; width: 400;margin-top: 60px;}
+    /*LISTA DE BLOQUE A LINEA*/
+.nav_menu_lista{display: inline-block; margin-left: 20px; margin-left: 140px;margin-top: 50px;}
+a{color: #2c2d3379;font-family: 'Libre Baskerville', serif;   font-weight: bold ;font-size: 16px;text-align:center;}
+.nav_menu_ul{ margin-left: 80px;margin-top: -110px;}
+
+
+h1 { font-family: 'Libre Baskerville', serif;   font-weight: bold ;font-size: 28px;text-align:center; color: brown; margin-top: 80px;   }
+h2 { font-family: 'Libre Baskerville', serif;   font-weight: bold ;font-size: 28px;text-align:center; color: brown; margin-top: 80px;   }
+
+header nav ul li{        text-align: center;  font-size: 16px;   color: rgb(0, 0, 0); list-style: none;    }
+
+/*SECTION page1*/
+.div_text_desayunosorpresatodaocasion{font-size: 20px; text-align: center;color: brown;margin-top: 80px;}
+.sec_div_img_desayunos{margin-left: 20px;margin-top: 80px;display:inline;width:max-content;height: max-content;}
+.div_img_nombres{font-size: 16px;color:#2c2d3379; margin-left: 10px;}
+.div_span_nombres{margin: 130px;}
+.div_span_nombres_valor{margin: 126px;}
+/*BOTONES*/
+.sec_btn_seleccionar{ margin-left: 20px;}
+.div_btn_seleccionar{margin: 125px;}
+.btn_ayuda{position: fixed; left: 1150px;height: 52px; width: 180px;}
+
+.div_siguenos{ font-size: 20px;text-align: center; color: brown;margin-top: 80px;}
+
+
+.section_logo{text-align: center;}
+
+footer{font-size: 20px; text-align: center; color: #2c2d3379; background-color: rgb(243 209 199);
+    background-position: center center;}
+
+
+/*html DUDAS*/
+.p_preguntas{font-size: 20px; text-align: justify; color: #2c2d3379;background-position: center center;
+position: relative;margin-left: 200px;}
+
+
+.p_respuestas{font-size: 16px; text-align: justify; color: #2c2d3379;background-position: center center;
+position: relative;margin-left: 200px;margin-right: 200px;}
+hr{margin-left: 200px;margin-right: 200px;}
+.sect_arti_preguntas{margin-top: 50px;}
+/*html CONTACTO*/
+
+.forn_field{margin-left: 210px;margin-right: 210px;background-color: rgb(243 209 199);}
+textarea{resize: none;padding-left: 10px;padding-right: 10px;padding-top: 10px; margin-left: 30px;
+    margin-top: 10px;margin-right: 10px;
+    font-size: 15px;text-align: left;}
+.forn_label{font-size: 18px;text-align: center;color: #2c2d3379;margin-left: 10px;}
+.forn_input{font-size: 15px;text-align:center;}
+.btn_enviar{text-align: center;margin-left: 23em;font-size: 20px;color: #2c2d3379;margin-top: -5px;}
+/*
+    button {--color: #2c2d3379;font-family: inherit;display: inline-block;top: -100px;width: 8em;
+        height: 2.6em;line-height: 2.5em;margin: 105px;position: relative;overflow: hidden;
+        border: 2px solid var(--color);transition: color .5s;z-index: 1;font-size: 15px;border-radius: 6px;
+        font-weight: 500;color: var(--color); }
+       button:before {content: "";position: absolute;z-index: -1;background: var(--color);
+        height: 150px;width: 200px;border-radius: 50%; }
+       button:hover {color: #fff; }
+       button:before {top: 100%;left: 100%;transition: all .7s; }
+       button:hover:before {top: -30px;left: -30px;}
+       button:active:before {background: #3a0ca3;transition: background 0s;}*/
