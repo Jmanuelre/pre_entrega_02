@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Toques De Amor</title>
-    <link rel="stylesheet" href="./css/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,97 +16,109 @@
 <link href="https://fonts.googleapis.com/css2?family=Alkalami&display=swap" rel="stylesheet">
 <!--logo web-->
 <link rel="shortcut icon" href="./img/imagen_index_main/logo.jpg">    
+<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+<!-- CCS MAIN -->
+<link rel="stylesheet" href="./css/estilos.css">
 
 </head>
-<body>
+<body id="body_grid">
     <!--ENCABEZADO-->
     <header>
-        <div class="div_header_text">
+        <div class="div_header_text container-fluid logo">
             <span>ENVÍOS A TODA BOGOTÁ, CATÁLOGO 100% DISPONIBLE HASTA MEDIA NOCHE PARA ENVÍOS AL DÍA SIGUIENTE.</span>
         </div>
-        
-        <nav class="nav_inicial">
-            <div class="img_logo_nav">
+    </header>   
+        <nav class="nav container-fluid">
+            <div class="nav_inicial container-fluid">
+        <div class="img_logo_nav container-fluid">
                 <img src="./img/imagen_index_main/transparent-bg,-no-shadow-designify.png" height="130" width="120" >
-            </div>
-            <div class="nav_menu">
-                <ul class="nav_menu_ul">
-                    <li class="nav_menu_lista"><a href="../index.html">INICIO</a></li>
-                    <li class="nav_menu_lista"><a href="./pages/desayunos.html">DESAYUNOS</a> </li>
-                    <li class="nav_menu_lista"><a href="./pages/detalles.html">DETALLES</a></li>
-                    <li class="nav_menu_lista"><a href="./pages/dudas.html">DUDAS</a></li>
-                    <li class="nav_menu_lista"><a href="./pages/contacto.html">CONTACTO</a></li>
+            </div>               
+                <div class="nav_menu_ul container-fluid">
+
+                    <ul>
+                        <li class="nav_menu_lista"><a href="../index.html">INICIO</a></li>
+                        <li class="nav_menu_lista"><a href="./pages/desayunos.html">DESAYUNOS</a> </li>
+                        <li class="nav_menu_lista"><a href="./pages/detalles.html">DETALLES</a></li>
+                        <li class="nav_menu_lista"><a href="./pages/dudas.html">DUDAS</a></li>
+                        <li class="nav_menu_lista"><a href="./pages/contacto.html">CONTACTO</a></li>
                     
-                </ul>
+                    </ul>
+                </div>
             </div>
-            
         </nav>
             <h1>DESAYUNOS TOQUES DE AMOR</h1>
-            <a href="https://api.whatsapp.com/send/?phone=3112646350&text&type=phone_number&app_absent=0"target="_blank"><img  class="btn_ayuda" src="https://palorosabreakfast.com/wp-content/uploads/2022/04/alta.png"></a>
-    </header>
-    <br>
-
     <!--CONTENIDO MAS IMPRTANTE DE MI WEB-->
         <main id="main_inicio"> <!--IMAGENES DE LOS DESAYUNOS-->
-            <section class="section_main" >
+            <section>
                 <article>
-                    <div></div>
+                    <div><a href="https://api.whatsapp.com/send/?phone=3112646350&text&type=phone_number&app_absent=0"target="_blank"><img  class="btn_ayuda" src="https://palorosabreakfast.com/wp-content/uploads/2022/04/alta.png"></a>
+                    </div>
                 </article>
                   
             </section>
         </main>
     <!--CONTENIDO NO TAN IMPORTANTE DE MI WEB-->
          
-    <section>
-                <article>
-                    <div class="div_text_desayunosorpresatodaocasion">
-                        <p>DESAYUNOS SORPRESA PARA TODA OCASION</p>
-                    </div>
+     <section>
+        <article>
+                    
+                <div class="div_text_desayunosorpresatodaocasion">
+                    <p>DESAYUNOS SORPRESA PARA TODA OCASION</p>
+                </div>
+            <div class="contenedor_img">        
     <!--IMAGENES REFERENCIA DESAYUNOS-->
-                    <div class="sec_div_img_desayunos">
+
+                    <div class="subcon_img ">
                         <img class="img_refe" src="./img/desayunos/diamond/diamond1-324x432.jpg" alt="DIAMOND">
+                        <span>DIAMOND</span>
+                        <span>$320.000</span>    
+                        <span><button>Seleccionar</button></span>
+                    </div>
+                    <div class="subcon_img ">
                         <img class="img_refe" src="./img/desayunos/cristal/cristal1-324x432.jpg" alt="CRISTAL">
-                        <img class="img_refe" src="./img/desayunos/gold/gold-pro3-324x432.jpg" alt="GOLD">
-                        <img  src="./img/desayunos/luxury/luxu8-324x432.jpg" alt="LUXURY">
-                        
-                    </div>
-                    <div class="div_img_nombres">
-                        <span class="div_span_nombres">DIAMOND</span>
                         <span class="div_span_nombres">CRISTAL</span>
-                        <span class="div_span_nombres">GOLD</span>
+                        <span class="div_span_nombres_valor">$240.000</span>
+                        <span class="div_btn_seleccionar"><button>Seleccionar</button></span>                        
+                    </div> 
+                     <div class="subcon_img ">
+                        <img class="img_refe" src="./img/desayunos/gold/gold-pro3-324x432.jpg" alt="GOLD">
+                         <span class="div_span_nombres">GOLD</span>
+                         <span class="div_span_nombres_valor">$160.000</span>
+                         <span class="div_btn_seleccionar"><button>Seleccionar</button></span>
+                    </div>
+                    <div class="subcon_img ">
+                        <img class="img_refe"  src="./img/desayunos/luxury/luxu8-324x432.jpg" alt="LUXURY">
                         <span class="div_span_nombres">LUXURY</span>
-                    </div>
-                    <div class="div_img_nombres">
-                        <span class="div_span_nombres_valor">$ 320.000</span>
-                        <span class="div_span_nombres_valor">$ 240.000</span>
-                        <span class="div_span_nombres_valor">$ 160.000</span>
-                        <span class="div_span_nombres_valor">$ 220.000</span>
-                    </div>
-                    <div class="sec_btn_seleccionar">
+                        <span class="div_span_nombres_valor">$220.000</span>
                         <span class="div_btn_seleccionar"><button>Seleccionar</button></span>
-                        <span class="div_btn_seleccionar"><button>Seleccionar</button></span>
-                        <span class="div_btn_seleccionar"><button>Seleccionar</button></span>
-                        <span class="div_btn_seleccionar"><button>Seleccionar</button></span>
-                        
                     </div>
-                    <div class="div_siguenos">
-                        <p>SIGUENOS EN @TOQUESDEAMOR</p>
-                    </div>
-                    <div>
-                        <div class="section_logo">
+            </div>
+                    <div class="contenedor_dos">
+                        <div class="div_siguenos">
+                            <p>SIGUENOS EN @TOQUESDEAMOR</p>
+                            </div>
+                    </div>        
+                            <div class="section_logo">
                             <img src="./img/imagen_index_main/1_1,-transparent-bg-+-shadow-designify.png" alt="imagen de mi pagina" >
-                        </div>    </div>
-                </article>
-            </section>
+                            </div>  
+                    
+                       
+        </article>
+    </section>
         <!--PUEDE SER UTILIZADO PARA PUBLICIDAD-->
     <aside></aside> <!--NO SE USA TANTO-->
     <!-- PIE DE PAGINA-->
     <footer>
         <div> 
-           <h3>Hola mundo</h3> 
+           <h4>Hola mundo</h4> 
            <p>Gracias por Visitarnos, Regresa pronto</p>
         </div>
     </footer>
+    
+
     
 </body>
 </html>
